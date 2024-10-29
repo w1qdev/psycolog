@@ -60,7 +60,7 @@ const Header = () => {
 
                 {/* Навигация */}
                 <nav
-                    className={` flex flex-col ml-[-14px] md:flex-row items-center md:justify-center justify-center md:gap-9 gap-6 font-light text-base fixed top-[60px] w-full md:relative md:top-0 bg-[#FFE8D8] md:bg-transparent transition-all duration-300 ease-in-out ${
+                    className={` flex flex-col ml-[-16px] md:flex-row items-center md:justify-center justify-center md:gap-9 gap-6 font-light text-base fixed top-[60px] w-full md:relative md:top-0 bg-[#FFE8D8] md:bg-transparent transition-all duration-300 ease-in-out ${
                         isMenuOpen
                             ? "block pt-5 pb-5 shadow-md"
                             : "hidden md:flex"

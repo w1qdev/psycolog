@@ -5,8 +5,8 @@ type KeyIconProps = defaultIconType & {
 };
 
 const Key = ({
-    width = "32",
-    height = "32",
+    width = "20",
+    height = "20",
     fill = "#343434",
     className,
 }: KeyIconProps) => {

@@ -11,9 +11,9 @@ const WomanHappiness = () => {
                 </div>
             </SectionTitle>
 
-            <div className="w-full flex flex-col gap-4 px-10">
+            <div className="w-full flex flex-col gap-4 md:px-10 px-3">
                 <div className="w-full flex flex-row justify-between items-start">
-                    <Key className="w-6 h-6 mt-1 mr-6" />
+                    <Key width="25px" height="25px" className="mt-1 mr-6" />
                     <div className="w-[93%] md:text-[20px] text-[18px] text-left leading-7 font-light">
                         В гармоничных
                         <Text bgColor="blue">отношениях с мужчиной</Text>, где
